@@ -33,13 +33,17 @@ impl Machine {
         }
     }
 
+    /**
+
+     instruction  = [ 0 0 0 0 0 0 0 0 | 0 0 0 0 0 0 0 0]
+                      OPERATOR        |  ARG(S)
+                                      | 8 bit literal
+                                      | REG1 | REG2
+
+    */
     pub fn step(&mut self) -> Result<(), ()> {
         let pc = self.registers[Register::PC as usize];
         let instruction = self.memory.read2(pc).unwrap();
-        // instruction  = [ 0 0 0 0 0 0 0 0 | 0 0 0 0 0 0 0 0]
-        //                  OPERATOR        |  ARG(S)
-        //                                  | 8 bit literal
-        //                                  | REG1 | REG2
 
         let op = instruction & 0xff;
 
@@ -48,7 +52,7 @@ impl Machine {
             _ => (),
         }
         self.registers[Register::PC as usize] = pc + 2;
-        println!("{} : {}", instruction, pc);
+        println!("{} @ {}", instruction, pc);
         Ok(())
     }
 }
