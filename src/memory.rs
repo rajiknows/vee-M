@@ -48,6 +48,7 @@ impl Addressable for LinearMemory {
     fn read(&self, addr: u16) -> Option<u8> {
         self.bytes.get(addr as usize).copied()
     }
+
     fn write(&mut self, addr: u16, value: u8) -> bool {
         if addr < self.size as u16 {
             self.bytes[addr as usize] = value;

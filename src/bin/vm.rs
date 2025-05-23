@@ -1,9 +1,10 @@
 use vm::vm::Machine;
 
-pub fn main() -> () {
-    let mut machine = Machine::new();
-    machine.step();
-    machine.step();
-    machine.step();
-    machine.step();
+pub fn main() -> Result<(), String> {
+    let mut vm = Machine::new();
+    vm.memory.write(0, 0xff);
+    vm.step()?;
+    vm.step()?;
+    vm.step()?;
+    vm.step()
 }

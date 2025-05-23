@@ -4,9 +4,11 @@
 #define vasa_chunk_h
 
 #include "common.h"
+#include "value.h"
 #include <stdint.h>
 
 typedef enum{
+    OP_CONSTANT,
     OP_RETURN,
 } OpCode ;
 
@@ -27,6 +29,7 @@ typedef struct{
     int capacity;
     int count;
     uint8_t * code;
+    ValueArray constants;
 } Chunk ;
 
 // initialize a new chunk
@@ -37,5 +40,9 @@ void freeChunk(Chunk* chunk);
 
 // writes into the chunk
 void writeChunk(Chunk* chunk , uint8_t byte);
+
+
+// add a constant to a chunk  return the offset`
+int addConstants(Chunk* chunk , Value value);
 
 #endif

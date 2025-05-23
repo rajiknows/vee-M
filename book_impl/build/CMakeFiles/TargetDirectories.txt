@@ -1,0 +1,3 @@
+/home/raj/programming/projects/vm/book_impl/build/CMakeFiles/vasa.dir
+/home/raj/programming/projects/vm/book_impl/build/CMakeFiles/edit_cache.dir
+/home/raj/programming/projects/vm/book_impl/build/CMakeFiles/rebuild_cache.dir

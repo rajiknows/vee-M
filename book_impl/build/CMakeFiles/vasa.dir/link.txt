@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/vasa.dir/main.c.o CMakeFiles/vasa.dir/chunk.c.o CMakeFiles/vasa.dir/debug.c.o CMakeFiles/vasa.dir/memory.c.o -o vasa
