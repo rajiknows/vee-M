@@ -9,4 +9,6 @@ add_executable(vasa
     chunk.c
     debug.c
     memory.c
+    value.c
+
 )
