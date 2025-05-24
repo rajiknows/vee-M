@@ -6,6 +6,7 @@ CMakeFiles/vasa.dir/chunk.c.o
  /home/raj/programming/projects/vm/book_impl/chunk.h
  /home/raj/programming/projects/vm/book_impl/common.h
  /home/raj/programming/projects/vm/book_impl/memory.h
+ /home/raj/programming/projects/vm/book_impl/value.h
  /usr/include/bits/libc-header-start.h
  /usr/include/bits/long-double.h
  /usr/include/bits/stdint-intn.h
@@ -33,6 +34,7 @@ CMakeFiles/vasa.dir/debug.c.o
  /home/raj/programming/projects/vm/book_impl/chunk.h
  /home/raj/programming/projects/vm/book_impl/common.h
  /home/raj/programming/projects/vm/book_impl/debug.h
+ /home/raj/programming/projects/vm/book_impl/value.h
  /usr/include/bits/floatn-common.h
  /usr/include/bits/floatn.h
  /usr/include/bits/libc-header-start.h
@@ -72,6 +74,7 @@ CMakeFiles/vasa.dir/main.c.o
  /home/raj/programming/projects/vm/book_impl/chunk.h
  /home/raj/programming/projects/vm/book_impl/common.h
  /home/raj/programming/projects/vm/book_impl/debug.h
+ /home/raj/programming/projects/vm/book_impl/value.h
  /usr/include/bits/floatn-common.h
  /usr/include/bits/floatn.h
  /usr/include/bits/libc-header-start.h

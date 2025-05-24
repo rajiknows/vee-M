@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/raj/programming/projects/vm/book_impl/debug.c" "CMakeFiles/vasa.dir/debug.c.o" "gcc" "CMakeFiles/vasa.dir/debug.c.o.d"
   "/home/raj/programming/projects/vm/book_impl/main.c" "CMakeFiles/vasa.dir/main.c.o" "gcc" "CMakeFiles/vasa.dir/main.c.o.d"
   "/home/raj/programming/projects/vm/book_impl/memory.c" "CMakeFiles/vasa.dir/memory.c.o" "gcc" "CMakeFiles/vasa.dir/memory.c.o.d"
+  "/home/raj/programming/projects/vm/book_impl/value.c" "CMakeFiles/vasa.dir/value.c.o" "gcc" "CMakeFiles/vasa.dir/value.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

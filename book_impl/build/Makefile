@@ -225,6 +225,30 @@ memory.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vasa.dir/build.make CMakeFiles/vasa.dir/memory.c.s
 .PHONY : memory.c.s
 
+value.o: value.c.o
+.PHONY : value.o
+
+# target to build an object file
+value.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vasa.dir/build.make CMakeFiles/vasa.dir/value.c.o
+.PHONY : value.c.o
+
+value.i: value.c.i
+.PHONY : value.i
+
+# target to preprocess a source file
+value.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vasa.dir/build.make CMakeFiles/vasa.dir/value.c.i
+.PHONY : value.c.i
+
+value.s: value.c.s
+.PHONY : value.s
+
+# target to generate assembly for a file
+value.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vasa.dir/build.make CMakeFiles/vasa.dir/value.c.s
+.PHONY : value.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... memory.o"
 	@echo "... memory.i"
 	@echo "... memory.s"
+	@echo "... value.o"
+	@echo "... value.i"
+	@echo "... value.s"
 .PHONY : help
 
 

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/vasa.dir/main.c.o.d"
   "CMakeFiles/vasa.dir/memory.c.o"
   "CMakeFiles/vasa.dir/memory.c.o.d"
+  "CMakeFiles/vasa.dir/value.c.o"
+  "CMakeFiles/vasa.dir/value.c.o.d"
   "vasa"
   "vasa.pdb"
 )

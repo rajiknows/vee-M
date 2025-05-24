@@ -5,6 +5,7 @@ CMakeFiles/vasa.dir/chunk.c.o: /home/raj/programming/projects/vm/book_impl/chunk
   /home/raj/programming/projects/vm/book_impl/chunk.h \
   /home/raj/programming/projects/vm/book_impl/common.h \
   /home/raj/programming/projects/vm/book_impl/memory.h \
+  /home/raj/programming/projects/vm/book_impl/value.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/stdint-intn.h \
@@ -31,6 +32,7 @@ CMakeFiles/vasa.dir/debug.c.o: /home/raj/programming/projects/vm/book_impl/debug
   /home/raj/programming/projects/vm/book_impl/chunk.h \
   /home/raj/programming/projects/vm/book_impl/common.h \
   /home/raj/programming/projects/vm/book_impl/debug.h \
+  /home/raj/programming/projects/vm/book_impl/value.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/libc-header-start.h \
@@ -69,6 +71,7 @@ CMakeFiles/vasa.dir/main.c.o: /home/raj/programming/projects/vm/book_impl/main.c
   /home/raj/programming/projects/vm/book_impl/chunk.h \
   /home/raj/programming/projects/vm/book_impl/common.h \
   /home/raj/programming/projects/vm/book_impl/debug.h \
+  /home/raj/programming/projects/vm/book_impl/value.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/libc-header-start.h \
@@ -174,8 +177,6 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
 
 /usr/include/features-time64.h:
 
-/usr/include/bits/types/__fpos64_t.h:
-
 /usr/include/bits/select.h:
 
 /usr/include/bits/types/FILE.h:
@@ -202,7 +203,13 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
 
 /home/raj/programming/projects/vm/book_impl/chunk.h:
 
-/usr/include/bits/libc-header-start.h:
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/bits/typesizes.h:
 
 /usr/include/features.h:
 
@@ -214,15 +221,29 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
 
 /usr/include/bits/byteswap.h:
 
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/home/raj/programming/projects/vm/book_impl/value.h:
+
+/usr/include/endian.h:
+
+/home/raj/programming/projects/vm/book_impl/memory.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/bits/stdint-uintn.h:
+
 /usr/include/bits/stdint-intn.h:
 
 /usr/include/bits/types.h:
 
-/usr/include/bits/floatn.h:
-
-/home/raj/programming/projects/vm/book_impl/main.c:
-
 /usr/include/bits/wchar.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/bits/stdio_lim.h:
 
 /usr/include/bits/stdint-least.h:
 
@@ -234,21 +255,9 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
 
 /usr/include/bits/struct_mutex.h:
 
-/usr/include/bits/wordsize.h:
+/home/raj/programming/projects/vm/book_impl/main.c:
 
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/endian.h:
-
-/home/raj/programming/projects/vm/book_impl/memory.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
+/usr/include/bits/floatn.h:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -289,7 +298,3 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
 /usr/include/bits/types/clockid_t.h:
 
 /usr/include/bits/types/struct_timespec.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/struct_timeval.h:
