@@ -31,6 +31,8 @@ typedef struct {
     uint8_t *code;
     ValueArray constants;
     int *lines;
+    // for storing the line numbers length, rle stuff might change later
+    int length;
 } Chunk;
 
 // initialize a new chunk

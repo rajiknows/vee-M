@@ -12,6 +12,7 @@ void initChunk(Chunk *chunk) {
     chunk->count = 0;
     chunk->code = NULL;
     chunk->lines = NULL;
+    chunk->length = 0;
     initValueArray(&chunk->constants);
 }
 
