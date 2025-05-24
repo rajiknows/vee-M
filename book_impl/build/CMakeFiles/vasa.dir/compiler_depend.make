@@ -6,14 +6,24 @@ CMakeFiles/vasa.dir/chunk.c.o: /home/raj/programming/projects/vm/book_impl/chunk
   /home/raj/programming/projects/vm/book_impl/common.h \
   /home/raj/programming/projects/vm/book_impl/memory.h \
   /home/raj/programming/projects/vm/book_impl/value.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
@@ -23,7 +33,9 @@ CMakeFiles/vasa.dir/chunk.c.o: /home/raj/programming/projects/vm/book_impl/chunk
   /usr/include/gnu/stubs.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdbool.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
@@ -160,6 +172,46 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
 
+CMakeFiles/vasa.dir/value.c.o: /home/raj/programming/projects/vm/book_impl/value.c \
+  /home/raj/programming/projects/vm/book_impl/common.h \
+  /home/raj/programming/projects/vm/book_impl/memory.h \
+  /home/raj/programming/projects/vm/book_impl/value.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdbool.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h
+
+
+/home/raj/programming/projects/vm/book_impl/value.c:
 
 /usr/include/sys/types.h:
 
@@ -171,49 +223,23 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
 
 /usr/include/bits/waitflags.h:
 
-/usr/include/bits/thread-shared-types.h:
-
-/home/raj/programming/projects/vm/book_impl/debug.c:
-
 /usr/include/features-time64.h:
 
 /usr/include/bits/select.h:
 
-/usr/include/bits/types/FILE.h:
-
-/usr/include/sys/cdefs.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h:
-
-/home/raj/programming/projects/vm/book_impl/debug.h:
-
-/home/raj/programming/projects/vm/book_impl/memory.c:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/stdint.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/bits/floatn-common.h:
-
-/home/raj/programming/projects/vm/book_impl/chunk.h:
+/usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/wordsize.h:
 
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/bits/types/FILE.h:
 
-/usr/include/bits/uintn-identity.h:
+/usr/include/bits/types.h:
 
-/usr/include/bits/typesizes.h:
+/usr/include/gnu/stubs-64.h:
 
-/usr/include/features.h:
+/usr/include/bits/struct_mutex.h:
 
-/home/raj/programming/projects/vm/book_impl/common.h:
+/usr/include/sys/cdefs.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/14/include/stdint.h:
 
@@ -221,29 +247,51 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
 
 /usr/include/bits/byteswap.h:
 
+/usr/include/bits/long-double.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/home/raj/programming/projects/vm/book_impl/common.h:
+
 /usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/types/__fpos64_t.h:
 
 /home/raj/programming/projects/vm/book_impl/value.h:
 
-/usr/include/endian.h:
+/home/raj/programming/projects/vm/book_impl/chunk.h:
 
-/home/raj/programming/projects/vm/book_impl/memory.h:
+/usr/include/bits/floatn-common.h:
+
+/usr/include/endian.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
+/home/raj/programming/projects/vm/book_impl/memory.h:
+
 /usr/include/bits/stdint-uintn.h:
 
+/usr/include/bits/types/__mbstate_t.h:
+
+/home/raj/programming/projects/vm/book_impl/main.c:
+
+/usr/include/bits/floatn.h:
+
 /usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/usr/include/bits/stdio_lim.h:
 
 /usr/include/bits/stdint-least.h:
 
@@ -251,17 +299,9 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
 
 /usr/include/alloca.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/include/gnu/stubs.h:
 
-/usr/include/bits/struct_mutex.h:
-
-/home/raj/programming/projects/vm/book_impl/main.c:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/types/struct_FILE.h:
+/usr/include/stdint.h:
 
 /usr/include/bits/types/timer_t.h:
 
@@ -274,6 +314,18 @@ CMakeFiles/vasa.dir/memory.c.o: /home/raj/programming/projects/vm/book_impl/memo
 /usr/include/bits/endian.h:
 
 /usr/include/bits/types/__sigset_t.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/14/include/stddef.h:
+
+/home/raj/programming/projects/vm/book_impl/debug.h:
+
+/home/raj/programming/projects/vm/book_impl/memory.c:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/home/raj/programming/projects/vm/book_impl/debug.c:
 
 /usr/include/bits/endianness.h:
 
