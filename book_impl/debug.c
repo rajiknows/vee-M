@@ -1,6 +1,7 @@
 
 #include "debug.h"
 #include "chunk.h"
+#include "rle.h"
 #include <stdint.h>
 #include <stdio.h>
 
@@ -28,10 +29,14 @@ void disassembleChunk(Chunk *chunk, const char *name) {
 int disassembleInstruction(Chunk *chunk, int offset) {
     printf("%04d  ", offset);
 
-    if (offset > 0 && chunk->lines[offset] == chunk->lines[offset - 1]) {
+
+    // we will call the getLine() here to get the line of code ......
+    int line_no = getLine(chunk->lines, chunk->length, offset);
+    int prev_line_no = getLine(chunk->lines, chunk->length, offset-1);
+    if(offset>0 && line_no == prev_line_no ){
         printf("    |");
     } else {
-        printf("%4d ", chunk->lines[offset]);
+        printf("%4d ", line_no);
     }
 
     uint8_t instruction = chunk->code[offset];

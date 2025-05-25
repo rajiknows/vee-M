@@ -10,5 +10,6 @@ add_executable(vasa
     debug.c
     memory.c
     value.c
+    rle.c
 
 )

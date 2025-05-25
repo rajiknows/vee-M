@@ -3,6 +3,7 @@
 #include "chunk.h"
 #include "common.h"
 #include "memory.h"
+#include "rle.h"
 #include "value.h"
 #include <stdint.h>
 #include <stdio.h>
@@ -37,8 +38,13 @@ void writeChunk(Chunk *chunk, uint8_t byte, int line) {
     }
 
     chunk->code[chunk->count] = byte;
-    chunk->lines[chunk->count] = line;
-    chunk->count++;
+    // Update RLE-compressed lines array
+    if (chunk->length >= 2 && chunk->lines[chunk->length - 2] == line) {
+        chunk->lines[chunk->length - 1] += 1;
+    } else {
+        chunk->lines[chunk->length++] = line;
+        chunk->lines[chunk->length++] = 1;
+    }
 }
 
 int addConstant(Chunk *chunk, Value value) {
