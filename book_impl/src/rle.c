@@ -50,14 +50,14 @@ int encode(int *lines, int size, int line, int *newlines) {
     return position;
 }
 
-int getLine(int *lines, int size, int offset){
+int getLine(int *lines, int size, int offset) {
     // so now we have this
     // [3,3,3,3,3,4,4,4,4,5,5,5,5,5,5,5,5] -> [3,5, 4,4, 5,8];
     //
     // we have the offset ,
     /*
-    * we will take the window of two numbers , and maintain a line number
-    */
+     * we will take the window of two numbers , and maintain a line number
+     */
 
     int count = 0;
     for (int i = 0; i < size; i += 2) {
