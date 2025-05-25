@@ -2,9 +2,11 @@
 #define vasa_vm_h
 
 #include "chunk.h"
+#include <stdint.h>
 
 typedef struct {
     Chunk *chunk;
+    uint8_t *ip;
 } VM;
 
 void initVm();
