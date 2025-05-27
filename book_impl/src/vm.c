@@ -1,6 +1,5 @@
 #include "vm.h"
 #include "chunk.h"
-#include "common.h"
 #include "value.h"
 #include <stdint.h>
 #include <stdio.h>
@@ -30,8 +29,8 @@ static InterpretResult run() {
             }
         }
     }
-#undef READ_CONSTANT
 #undef READ_BYTE
+#undef READ_CONSTANT
 }
 
 InterpretResult interpret(Chunk *chunk) {

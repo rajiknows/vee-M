@@ -45,6 +45,7 @@ void writeChunk(Chunk *chunk, uint8_t byte, int line) {
         chunk->lines[chunk->length++] = line;
         chunk->lines[chunk->length++] = 1;
     }
+    chunk->count++;
 }
 
 int addConstant(Chunk *chunk, Value value) {

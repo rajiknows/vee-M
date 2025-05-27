@@ -22,6 +22,7 @@ void disassembleChunk(Chunk *chunk, const char *name) {
     printf("== %s ==\n", name);
 
     for (int offset = 0; offset < chunk->count;) {
+        printf("%d\t", offset);
         offset = disassembleInstruction(chunk, offset);
     }
 }
@@ -29,11 +30,10 @@ void disassembleChunk(Chunk *chunk, const char *name) {
 int disassembleInstruction(Chunk *chunk, int offset) {
     printf("%04d  ", offset);
 
-
     // we will call the getLine() here to get the line of code ......
     int line_no = getLine(chunk->lines, chunk->length, offset);
-    int prev_line_no = getLine(chunk->lines, chunk->length, offset-1);
-    if(offset>0 && line_no == prev_line_no ){
+    int prev_line_no = getLine(chunk->lines, chunk->length, offset - 1);
+    if (offset > 0 && line_no == prev_line_no) {
         printf("    |");
     } else {
         printf("%4d ", line_no);

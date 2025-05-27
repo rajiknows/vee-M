@@ -11,4 +11,5 @@ add_executable(vasa
     src/memory.c
     src/value.c
     src/rle.c
+    src/vm.c
 )
